@@ -1,0 +1,27 @@
+:root {
+  --text-color: rgba(50, 60, 70);
+  --link-color: rgb(44, 118, 192);
+  --background-color: rgb(243, 241, 241);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--background-color);
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
