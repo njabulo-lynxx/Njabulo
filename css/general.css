@@ -1,7 +1,7 @@
 :root {
+  --bg-color: rgb(243, 241, 241);
   --text-color: rgba(50, 60, 70);
-  --link-color: rgb(44, 118, 192);
-  --background-color: rgb(243, 241, 241);
+  --accent: rgb(44, 118, 192);
 }
 
 * {
@@ -16,12 +16,12 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: var(--background-color);
+  background-color: var(--bg-color);
   max-width: 1400px;
   margin: 0 auto;
 }
 
 a {
-  color: var(--link-color);
+  color: var(--accent);
   text-decoration: none;
 }
